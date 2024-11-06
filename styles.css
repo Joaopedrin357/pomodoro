@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #191970;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 170px;
+    background-color: #D3D3D3;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pomodoro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#timer {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button#start {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button#reset {
+    background-color: #f44336;
+    color: white;
+}
+
+.tasks {
+    margin-top: 20px;
+}
+
+#taskInput {
+    padding: 10px;
+    width: calc(100% - 110px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button#addTask {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #2196F3;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+button.complete {
+    background-color: #8BC34A;
+}
+
+button.delete {
+    background-color: #F44336;
+}
+
+button.complete, button.delete {
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+/* Estilo para o rodapé */
+.footer {
+    position: fixed;
+    bottom: 10px;  /* Distância de 10px da parte inferior */
+    right: 10px;   /* Distância de 10px da parte direita */
+    font-size: 14px;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.6);  /* Fundo transparente */
+    padding: 5px;
+    border-radius: 5px;
+}
